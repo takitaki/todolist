@@ -1,0 +1,16 @@
+{
+  "username": "todolist",
+  "version": "1.0.0",
+  "description": "todo list",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "node ./lib/app.js",
+    "debug": "node --debug-brk lib/app.js"
+  },
+  "author": "ekaterina mufler",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.7.12"
+  }
+}
