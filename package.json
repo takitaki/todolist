@@ -2,17 +2,20 @@
   "username": "todolist",
   "version": "1.0.0",
   "description": "todo list",
-  "main": "lib/app.js",
+  "main": "lib/server.js",
   "scripts": {
-    "start": "node ./lib/app.js",
-    "debug": "node --debug-brk lib/app.js"
+    "start": "node ./lib/server.js",
+    "debug": "node --debug-brk lib/server.js",
+    "test": "mocha"
   },
   "author": "ekaterina mufler",
   "dependencies": {
+    "chai": "^4.2.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
-    "mongoose": "^5.7.12"
+    "mongoose": "^5.7.12",
+    "sinon": "^7.5.0"
   }
 }
